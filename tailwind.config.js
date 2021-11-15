@@ -2,10 +2,16 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        pulse: 'pulse 1.5s'
+      }
+    },
   },
   variants: {
-    extend: {},
+    extend: {
+      animation: ['hover', 'focus'],
+    },
   },
   plugins: [],
 }

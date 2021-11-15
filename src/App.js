@@ -15,10 +15,10 @@ function App() {
     <div className="App">
       <div class='relative ProductSans'>
       <NavBar/>
-    
       <Switch>
         <Route path="/projects" component={() => <Projects/>} />
         <Route path="/about" component={()=> <About/>} />
+        <Route path="/contact" component={()=> <About/>} />
         <Route path="/" component={()=> <Home />} />
       </Switch>
       </div>
