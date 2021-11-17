@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
     return (
-        <div>
+        <div class='p-3 border container mx-auto mt-3'>
             About Page
         </div>
     )
